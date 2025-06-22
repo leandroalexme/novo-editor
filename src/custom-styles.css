@@ -1,0 +1,20 @@
+
+/* Hide Polotno branding and unwanted elements */
+[data-polotno-branding],
+.polotno-branding,
+.bp5-popover .bp5-popover-content div[style*="Polotno"],
+.bp5-popover .bp5-popover-content div[style*="polotno"] {
+  display: none !important;
+}
+
+/* Hide any "Powered by" text */
+*:has-text("Powered by Polotno"),
+*[title*="Polotno"],
+*[alt*="Polotno"] {
+  display: none !important;
+}
+
+/* Hide watermarks */
+.polotno-watermark {
+  display: none !important;
+}
