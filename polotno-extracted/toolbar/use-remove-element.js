@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.useRemoveElement=void 0;const e=require("react");exports.useRemoveElement=({store:t})=>{const l=t.selectedElements.filter((e=>e.removable)),r=(0,e.useCallback)((()=>{t.deleteElements(l.map((e=>e.id)))}),[t,l]);return{disabled:!l.length,remove:r}};

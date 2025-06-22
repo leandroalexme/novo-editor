@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.FigureElement=void 0;const e=require("mobx-state-tree"),r=require("./shape-model");exports.FigureElement=r.Shape.named("Figure").props({type:"figure",subType:"rect",fill:"rgb(0, 161, 255)",dash:e.types.array(e.types.number),strokeWidth:0,stroke:"rgba(98, 197, 255, 1)",cornerRadius:0});

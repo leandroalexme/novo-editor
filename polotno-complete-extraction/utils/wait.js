@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.waitTillAvailable=async function(e){for(let t=0;t<30;t++){const t=await e();if(t){return t}await new Promise((e=>setTimeout(e,50)))}};

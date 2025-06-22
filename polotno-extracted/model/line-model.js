@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.LineElement=void 0;const e=require("mobx-state-tree"),t=require("./shape-model");exports.LineElement=t.Shape.named("Line").props({type:"line",width:400,height:10,color:"black",dash:e.types.array(e.types.number),startHead:"",endHead:""}).actions((e=>({})));

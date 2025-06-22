@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.deepEqual=void 0,exports.deepEqual=function(e,r){if(e===r){return!0}if("object"==typeof e&&null!=e&&"object"==typeof r&&null!=r){if(Object.keys(e).length!=Object.keys(r).length){return!1}for(var t in e){if(!r.hasOwnProperty(t)){return!1}if(!(0,exports.deepEqual)(e[t],r[t])){return!1}}return!0}return!1};

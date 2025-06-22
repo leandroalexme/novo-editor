@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.VideoElement=void 0;const e=require("./image-model");exports.VideoElement=e.ImageElement.named("Video").props({type:"video",duration:0,startTime:0,endTime:1,volume:1});

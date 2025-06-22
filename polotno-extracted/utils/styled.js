@@ -1,1 +1,0 @@
-var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});const t=e(require("react")),r=require("./goober");(0,r.setup)(t.default.createElement),exports.default=r.styled;

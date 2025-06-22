@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:!0}),exports.flat=void 0,exports.flat=e=>Array.isArray(e)?e.reduce(((e,r)=>e.concat(r)),[]):e;
