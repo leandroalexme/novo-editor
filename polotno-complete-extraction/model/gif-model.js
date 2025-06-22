@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.GifElement=void 0;const e=require("./image-model");exports.GifElement=e.ImageElement.named("Gif").props({type:"gif",duration:0,keepRatio:!0});

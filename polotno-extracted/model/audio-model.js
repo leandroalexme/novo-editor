@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.Audio=void 0;const e=require("mobx-state-tree");exports.Audio=e.types.model("Audio",{id:e.types.identifier,src:"",duration:0,startTime:0,endTime:1,volume:1,delay:0}).actions((t=>({toJSON:()=>Object.assign({},(0,e.getSnapshot)(t))}))).actions((e=>({set(t){Object.assign(e,t)}})));
