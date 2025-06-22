@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.localFileToURL=async function(e){return new Promise(((o,r)=>{const n=new FileReader;n.readAsDataURL(e),n.onload=()=>o(n.result),n.onerror=e=>r(e)}))};

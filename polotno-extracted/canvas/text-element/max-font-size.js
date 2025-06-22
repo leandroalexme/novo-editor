@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.getLimitedFontSize=function({oldText:e,newText:t,element:n}){if(!(t.length/Math.max(20,e.length)>=4)){return n.fontSize}const o=n.width*n.page.computedHeight/t.length,i=1.5*Math.sqrt(o),h=n.fontSize;return Math.min(h,Math.max(5,Math.round(i)))};

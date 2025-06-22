@@ -1,0 +1,38 @@
+
+{
+  "name": "polotno-core-editor",
+  "version": "1.0.0",
+  "description": "Editor de design baseado no Polotno SDK - Códigos essenciais organizados",
+  "main": "src/index.jsx",
+  "dependencies": {
+    "polotno": "^2.24.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^5.0.0",
+    "localforage": "^1.10.0",
+    "jszip": "^3.10.1",
+    "qrcode": "^1.5.4",
+    "@meronex/icons": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.4.0",
+    "vite": "^6.3.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

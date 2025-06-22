@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:!0}),exports.downloadFile=async function(e,o){const t=await(await fetch(e)).blob(),c=document.createElement("a"),d=URL.createObjectURL(t);c.href=d,c.download=o,document.body.appendChild(c),c.click(),setTimeout((function(){document.body.removeChild(c),window.URL.revokeObjectURL(d)}),0)};
